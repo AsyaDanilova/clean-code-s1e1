@@ -17,20 +17,20 @@
     </div>
     <div class="todo-list">
       <p id="add-section">
-        <label for="new-task">Add Item</label>
+        <label class="todo-section-header" for="new-task">Add Item</label>
         <div class="task-item">
           <input id="new-task"
-            class="task"
+            class="task task-text"
             type="text">
           <button>Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
+      <h3 class="todo-section-header">Todo</h3>
       <ul id="incomplete-tasks">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
-          <input type="text" class="task">
+          <input type="text" class="task task-text">
           <button class="edit">Edit</button>
           <button class="delete">
               <img src="./remove.svg">
@@ -38,7 +38,7 @@
         </li>
         <li class="edit-mode">
           <input type="checkbox">
-          <label class="task">Go Shopping</label>
+          <label class="task task-text">Go Shopping</label>
           <input type="text"
             value="Go Shopping"
             class="task">
@@ -48,12 +48,12 @@
           </button>
         </li>
       </ul>
-      <h3>Completed</h3>
+      <h3 class="todo-section-header">Completed</h3>
       <ul id="completed-tasks">
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+          <input type="text" class="task task-text">
           <button class="edit">Edit</button>
           <button class="delete">
               <img src="./remove.svg">
