@@ -117,8 +117,6 @@ var taskCompleted = function () {
     listItem.classList.remove("todo__item--original-mode");
     listItem.classList.remove("todo__item--edit-mode");
     listItem.classList.add("todo__item--completed");
-    var editBtn = listItem.querySelector(".todo__edit-button");
-    editBtn.innerText = "Edit";
 
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
